@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opera Table Clone</title>
+  <style>
+    html {
+      font-family: "Segoe UI", Segoe, Tahoma, Geneva, sans-serif;
+      color: #464644;
+      font-size: 81.25%;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    table,tr,th,td {
+      text-align: left;
+      border-collapse: collapse;
+      padding: 0.231rem 0.769rem;
+    }
+
+    .table-container {
+      overflow-x: auto;
+      width: 100%;
+      table-layout: fixed;
+    }
+
+    .hrow {
+      height: 1.8rem;
+      border-bottom: 2px solid #585856;
+    }
+
+    img {
+      vertical-align: top;
+    }
+
+    table tr {
+      height: 2rem;
+      border-top: 1px solid #cccccc;
+    }
+
+    /* Alternate row color */
+    table tr:nth-child(even) {
+      background-color: #F4F3EF;
+    }
+
+    .room-status-col {
+      width: calc(100% - 245px);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Updated Time - 17:40 <br> 更新时间 - 17:40</h1>
+  <div>
+    <div>
+      <table role="presentation" class="table-container">
+        <colgroup span="4">
+          <col style="width:40px;">
+          <col style="width:55px;">
+          <col style="width:150px;">
+          <col class="room-status-col">
+        </colgroup>
+        <tbody>
+          <tr>
+            <th class="hrow">
+              <img src="cb.svg">
+            </th>
+            <th class="hrow">
+              <span>Room</span>
+            </th>
+            <th class="hrow">
+              <span>Room Type</span>
+            </th>
+            <th class="hrow">
+              <span>Room Status</span>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table role="presentation" class="table-container">
+        <colgroup span="4">
+          <col style="width:40px;">
+          <col style="width:55px;">
+          <col style="width:150px;">
+          <col class="room-status-col">
+        </colgroup>
+        <tbody>
+          <!-- Your table data goes here -->
+          <tr>
+            <td><img src="cb.svg"></td>
+            <td>762</td>
+            <td>SUPQV</td>
+            <td><img src="dirty.svg"></td>
+          </tr>
+          <tr>
+            <td><img src="cb.svg"></td>
+            <td>781</td>
+            <td>SUPQV</td>
+            <td><img src="dirty.svg"></td>
+          </tr>
+          <tr>
+            <td><img src="cb.svg"></td>
+            <td>786</td>
+            <td>SUPTV</td>
+            <td><img src="dirty.svg"></td>
+          </tr>
+          <tr >
+            <td><img src="cb.svg"></td>
+            <td>788</td>
+            <td>SUPTV</td>
+            <td><img src="dirty.svg"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="16" height="16" viewBox="0 0 16 16">
+<defs>
+<symbol id="icon-square-o" viewBox="0 0 16 16">
+<path d="M11.714 2.286h-7.429q-0.589 0-1.009 0.42t-0.42 1.009v7.429q0 0.589 0.42 1.009t1.009 0.42h7.429q0.589 0 1.009-0.42t0.42-1.009v-7.429q0-0.589-0.42-1.009t-1.009-0.42zM14.286 3.714v7.429q0 1.063-0.754 1.817t-1.817 0.754h-7.429q-1.063 0-1.817-0.754t-0.754-1.817v-7.429q0-1.063 0.754-1.817t1.817-0.754h7.429q1.063 0 1.817 0.754t0.754 1.817z"></path>
+</symbol>
+</defs>
+<rect id="background-square-inner" width="15.75" height="15.75" rx="3" ry="3" x="0.125" y="0.125" fill="#fff"/>
+<use xlink:href="#icon-square-o" fill="#066c7a" width="20" height="20" x="-2" y="-1.25"/>
+</svg>
